@@ -17,10 +17,7 @@ ORG_NAME                = "StellarWorker"
 ORG_DBA                 = "StellarWorker Protocol"
 ORG_URL                 = "https://stellarworker.vercel.app"
 ORG_LOGO                = "https://stellarworker.vercel.app/og-image.png"
-ORG_DESCRIPTION         = "StellarWorker is a trustless, non-custodial cross-chain bridge built on the Stellar blockchain, enabling seamless asset transfers across chains with sub-second finality and near-zero fees."
-ORG_TWITTER             = "StellarWorker"
-ORG_GITHUB              = "StellarWorker"
-ORG_KEYBASE             = "StellarWorker"
+ORG_DESCRIPTION         = "StellarWorker is a non-custodial cross-chain bridge built on the Stellar blockchain, enabling seamless asset transfers across chains with 5-second finality and near-zero fees."
 
 # ------------------------------------------------------------------------------
 # CURRENCIES 
