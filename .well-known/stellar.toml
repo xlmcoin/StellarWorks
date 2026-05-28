@@ -1,9 +1,9 @@
 # ==============================================================================
-# STELLAR.TOML — StellarWork
-# https://stellarwork.vercel.app/.well-known/stellar.toml
+# STELLAR.TOML — StellarWorker
+# https://stellarworker.vercel.app/.well-known/stellar.toml
 #
 # This file complies with Stellar Ecosystem Proposal SEP-0001.
-# Hosted at: https://stellarwork.vercel.app/.well-known/stellar.toml
+# Hosted at: https://stellarworker.vercel.app/.well-known/stellar.toml
 # Issuer:    GASV6X5P34ANKTRKVYB2Q4GO272P77SHPKQMAGWQ7VQQWU3WSCSDCOOL
 # Issuer:    GA3WTHLHZWUX3UXCEJ57SJQRF6ZJTCS6C2AN3VWBX3AEZLGZ4WGOWARM
 # ==============================================================================
@@ -13,14 +13,14 @@
 # ------------------------------------------------------------------------------
 
 [DOCUMENTATION]
-ORG_NAME                = "StellarWork"
-ORG_DBA                 = "StellarWork Protocol"
-ORG_URL                 = "https://stellarwork.vercel.app"
-ORG_LOGO                = "https://stellarwork.vercel.app/og-image.png"
-ORG_DESCRIPTION         = "StellarWork is a trustless, non-custodial cross-chain bridge built on the Stellar blockchain, enabling seamless asset transfers across chains with sub-second finality and near-zero fees."
-ORG_TWITTER             = "StellarWork"
-ORG_GITHUB              = "StellarWork"
-ORG_KEYBASE             = "StellarWork"
+ORG_NAME                = "StellarWorker"
+ORG_DBA                 = "StellarWorker Protocol"
+ORG_URL                 = "https://stellarworker.vercel.app"
+ORG_LOGO                = "https://stellarworker.vercel.app/og-image.png"
+ORG_DESCRIPTION         = "StellarWorker is a trustless, non-custodial cross-chain bridge built on the Stellar blockchain, enabling seamless asset transfers across chains with sub-second finality and near-zero fees."
+ORG_TWITTER             = "StellarWorker"
+ORG_GITHUB              = "StellarWorker"
+ORG_KEYBASE             = "StellarWorker"
 
 # ------------------------------------------------------------------------------
 # CURRENCIES 
@@ -32,7 +32,7 @@ issuer              = "GASV6X5P34ANKTRKVYB2Q4GO272P77SHPKQMAGWQ7VQQWU3WSCSDCOOL"
 display_decimals    = 7
 name                = "UltraAUD"
 desc                = "A Stellar-based digital asset designed for fast and secure Australian dollar transactions."
-image               = "https://stellarwork.vercel.app/assets/UltraAUD.png"
+image               = "https://stellarworker.vercel.app/assets/UltraAUD.png"
 fixed_number        = 9223372036854775807
 is_asset_anchored   = true
 anchor_asset_type   = "AUD"
@@ -44,7 +44,7 @@ issuer              = "GASV6X5P34ANKTRKVYB2Q4GO272P77SHPKQMAGWQ7VQQWU3WSCSDCOOL"
 display_decimals    = 7
 name                = "UltraEUR"
 desc                = "A Euro-pegged token on Stellar enabling seamless global payments and transfers."
-image               = "https://stellarwork.vercel.app/assets/UltraEUR.png"
+image               = "https://stellarworker.vercel.app/assets/UltraEUR.png"
 fixed_number        = 9223372036854775807
 is_asset_anchored   = true
 anchor_asset_type   = "EUR"
@@ -56,7 +56,7 @@ issuer              = "GASV6X5P34ANKTRKVYB2Q4GO272P77SHPKQMAGWQ7VQQWU3WSCSDCOOL"
 display_decimals    = 7
 name                = "UltraRLUSD"
 desc                = "A liquidity-focused stable asset built for reliable Ripple USD settlement on Stellar."
-image               = "https://stellarwork.vercel.app/assets/UltraRLUSD.png"
+image               = "https://stellarworker.vercel.app/assets/UltraRLUSD.png"
 fixed_number        = 9223372036854775807
 is_asset_anchored   = true
 anchor_asset_type   = "RLUSD"
@@ -68,7 +68,7 @@ issuer              = "GASV6X5P34ANKTRKVYB2Q4GO272P77SHPKQMAGWQ7VQQWU3WSCSDCOOL"
 display_decimals    = 7
 name                = "UltraUSD"
 desc                = "A digital USD token optimized for secure payments, trading, and cross-border transactions."
-image               = "https://stellarwork.vercel.app/assets/UltraUSD.png"
+image               = "https://stellarworker.vercel.app/assets/UltraUSD.png"
 fixed_number        = 9223372036854775807
 is_asset_anchored   = true
 anchor_asset_type   = "USD"
@@ -80,7 +80,7 @@ issuer              = "GASV6X5P34ANKTRKVYB2Q4GO272P77SHPKQMAGWQ7VQQWU3WSCSDCOOL"
 display_decimals    = 7
 name                = "UltraUSDC"
 desc                = "A Stellar-powered stable token inspired by USDC for fast and low-cost transfers."
-image               = "https://stellarwork.vercel.app/assets/UltraUSDC.png"
+image               = "https://stellarworker.vercel.app/assets/UltraUSDC.png"
 fixed_number        = 9223372036854775807
 is_asset_anchored   = true
 anchor_asset_type   = "USDC"
@@ -92,7 +92,7 @@ issuer              = "GASV6X5P34ANKTRKVYB2Q4GO272P77SHPKQMAGWQ7VQQWU3WSCSDCOOL"
 display_decimals    = 7
 name                = "UltraXLM"
 desc                = "A utility token connected to the Stellar ecosystem, focused on speed and network efficiency."
-image               = "https://stellarwork.vercel.app/assets/UltraXLM.png"
+image               = "https://stellarworker.vercel.app/assets/UltraXLM.png"
 fixed_number        = 9223372036854775807
 is_asset_anchored   = true
 anchor_asset_type   = "XLM"
@@ -104,7 +104,7 @@ issuer              = "GASV6X5P34ANKTRKVYB2Q4GO272P77SHPKQMAGWQ7VQQWU3WSCSDCOOL"
 display_decimals    = 7
 name                = "UltraXRP"
 desc                = "A digital asset bridging fast-value transfer concepts with Stellar-powered infrastructure."
-image               = "https://stellarwork.vercel.app/assets/UltraXRP.png"
+image               = "https://stellarworker.vercel.app/assets/UltraXRP.png"
 fixed_number        = 9223372036854775807
 is_asset_anchored   = true
 anchor_asset_type   = "XRP"
@@ -116,8 +116,8 @@ issuer              = "GA3WTHLHZWUX3UXCEJ57SJQRF6ZJTCS6C2AN3VWBX3AEZLGZ4WGOWARM"
 display_decimals    = 7
 name                = "UPXLM"
 desc                = "A premium Stellar ecosystem token built for rapid transactions and decentralized utility."
-image               = "https://stellarwork.vercel.app/assets/UPXLM.png"
-fixed_number        = 9223372036854775807
+image               = "https://stellarworker.vercel.app/assets/UPXLM.png"
+fixed_number        = 10000000000000000
 is_asset_anchored   = true
 anchor_asset_type   = "XLM"
 status              = "live"
@@ -128,8 +128,8 @@ issuer              = "GA3WTHLHZWUX3UXCEJ57SJQRF6ZJTCS6C2AN3VWBX3AEZLGZ4WGOWARM"
 display_decimals    = 7
 name                = "UPXRP"
 desc                = "A next-generation digital token combining speed, scalability, and cross-chain inspired branding."
-image               = "https://stellarwork.vercel.app/assets/UPXRP.png"
-fixed_number        = 9223372036854775807
+image               = "https://stellarworker.vercel.app/assets/UPXRP.png"
+fixed_number        = 10000000000000000
 is_asset_anchored   = false
 anchor_asset_type   = "XRP"
 status              = "live"
