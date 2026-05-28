@@ -5,22 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="StellarWork - Revolutionizing decentralized finance through Stellar blockchain interoperability. Secure, fast, and innovative Web3 solutions for the future of digital assets and XLM ecosystem.">
+    <meta name="description" content="StellarWorker - Revolutionizing decentralized finance through Stellar blockchain interoperability. Secure, fast, and innovative Web3 solutions for the future of digital assets and XLM ecosystem.">
     <meta name="keywords" content="Stellar blockchain, decentralized finance, DeFi, crypto bridge, XLM, interoperability, Web3, blockchain solutions, digital assets, stellar ecosystem">
     <meta name="author" content="StellarWor">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="canonical" href="https://stellarwork.vercel.app">
+    <meta name="canonical" href="https://stellarworker.vercel.app">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://stellarwork.vercel.app">
-    <meta property="og:title" content="StellarWork - Next-Generation Stellar Blockchain Platform">
+    <meta property="og:url" content="https://stellarworker.vercel.app">
+    <meta property="og:title" content="StellarWorker - Next-Generation Stellar Blockchain Platform">
     <meta property="og:description" content="Harness the power of Stellar blockchain for decentralized finance, cross-border payments, and Web3 innovation.">
-    <meta property="og:image" content="https://stellarwork.vercel.app/og-image.png">
+    <meta property="og:image" content="https://stellarworker.vercel.app/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="StellarWork">
+    <meta property="og:site_name" content="StellarWorker">
     <meta property="og:locale" content="en_US">
     
-<title>StellarWork | Stellar Blockchain Assets</title>
+<title>StellarWorker | Stellar Blockchain Assets</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -191,20 +191,93 @@ footer{
         padding:20px;
     }
 }
+    /* MARKET BUTTON */
+
+.market-section{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.market-btn{
+    position:relative;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:18px 40px;
+    border-radius:60px;
+    text-decoration:none;
+    overflow:hidden;
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(0,225,255,0.4);
+    backdrop-filter:blur(12px);
+    transition:0.4s ease;
+    box-shadow:
+        0 0 15px rgba(0,225,255,0.2),
+        inset 0 0 12px rgba(255,255,255,0.05);
+}
+
+.market-btn:hover{
+    transform:translateY(-4px) scale(1.03);
+    box-shadow:
+        0 0 35px rgba(0,225,255,0.55),
+        0 0 80px rgba(125,95,255,0.35);
+}
+
+.btn-content{
+    position:relative;
+    z-index:2;
+    font-size:1rem;
+    font-weight:600;
+    letter-spacing:1px;
+    color:white;
+}
+
+.btn-glow{
+    position:absolute;
+    width:250%;
+    height:250%;
+    background:conic-gradient(
+        from 0deg,
+        #00e1ff,
+        #7d5fff,
+        #00ffa3,
+        #00e1ff
+    );
+    animation:rotateGlow 4s linear infinite;
+}
+
+.market-btn::before{
+    content:'';
+    position:absolute;
+    inset:2px;
+    border-radius:60px;
+    background:#07111f;
+    z-index:1;
+}
+
+@keyframes rotateGlow{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+    
 </style>
 </head>
 
 <body>
 
 <div class="loader">
-    <h1>StellarWork</h1>
+    <h1>StellarWorker</h1>
     <p>Initializing Stellar Blockchain Assets...</p>
 </div>
 
 <div class="stars"></div>
 
 <section class="hero">
-    <h1>StellarWork</h1>
+    <h1>StellarWorker</h1>
     <p>
         Explore the next generation of digital assets powered by the
         <span class="highlight">Stellar Blockchain</span>.
@@ -246,8 +319,13 @@ footer{
 
 </section>
 
+<!-- STELLARTERM BUTTON SECTION -->
+    <section class="market-section">
+        <a href="https://stellarterm.com/markets/?search=stellarworker.vercel.app" target="_blank" class="market-btn"> <span class="btn-glow"></span> <span class="btn-content"> 🚀 Trade on StellarTerm </span> </a> </section>
+
+    
 <footer>
-    © 2026 StellarWork — Powered by the Stellar Blockchain
+    © 2026 StellarWorker — Powered by the Stellar Blockchain
 </footer>
 
 <script>
